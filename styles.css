@@ -24,6 +24,16 @@ h1, h2 {
     margin-left: 2rem;
 }
 
+.typewrite {
+    border-right: 0.08em solid black;
+}
+
+
+.return-home {
+    margin-left: 2rem;
+    text-decoration: underline;
+}
+
 .line::before {
     border-left: 3rem solid #497c62;
     content: "";
@@ -106,7 +116,6 @@ h1, h2 {
 }
 
 .code-link {
-    margin-left: 2rem;
     text-decoration: underline;
 }
 
