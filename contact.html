@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="home" href="home.html">Home</a>
+
+            <ul class="nav-menu">
+                <li><a href="aboutme.html" class="nav-link">About me</a></li>
+                <br>
+                <li><a href="projects.html" class="nav-link">My projects</a></li>
+                <br>
+                <li><a href="contact.html" class="nav-link"><strong>Contact</strong></a></li>
+                <br>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"> </span>
+                <span class="bar"> </span>
+                <span class="bar"> </span>
+            </div>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+    <h1 class="line">Contact me</h1>
+    <br>
+
+    <p>Email: <a href="mailto:anhtu.vothang@gmail.com"><u>anhtu.vothang@gmail.com</u></a> </p>
+    <p>GitHub: <a href="https://github.com/anhtuv"><u>anhtuv</u></a> </p>
+    <p>LinkedIn: <a href="https://ca.linkedin.com/in/anhtu-vothang-a7a090239"><u>AnhTu Vothang</u></a></p>
+
+    <div class="container">
+        <form action="https://formsubmit.co/anhtu.vothang@gmail.com" method="POST">
+            <h2>Contact form</h2>
+            <br>
+            <input type="hidden" name="_subject" value="New!">
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+            <input type="email" name="email" id="email" placeholder="Your email" required>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            <input type="hidden" name="_next" value="https://anhtuv.github.io/thankyou.html">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
