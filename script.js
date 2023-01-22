@@ -18,7 +18,7 @@ function TxtType(element) {
 };
 
 TxtType.prototype.tick = function() {
-    var fullTxt = "Welcome! Bienvenue!  ";
+    var fullTxt = "Welcome! Bienvenue!";
 
     if (this.isDeleting) {
         this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -31,16 +31,16 @@ TxtType.prototype.tick = function() {
 
     var that = this;
 
-    if (!this.isDeleting && this.txt === fullTxt) {
-        this.isDeleting = true;
-        //this.element.style.borderRight = 0;
-    } 
-    else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
+    // if (!this.isDeleting && this.txt === fullTxt) {
+    //     this.isDeleting = true;
+    //     //this.element.style.borderRight = 0;
+    // } 
+    // else if (this.isDeleting && this.txt === '') {
+    //     this.isDeleting = false;
 
-    }
+    // }
 
-    setTimeout(function() {that.tick();}, 200);
+    setTimeout(function() {that.tick();}, 300);
 
 };
 
